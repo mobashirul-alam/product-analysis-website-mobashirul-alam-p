@@ -3,13 +3,13 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <div>
+        <div className='flex justify-center mt-6 mb-4 font-medium'>
             <nav>
-                <Link to='/home'>HOME</Link>
-                <Link to='/reviews'>REVIEWS</Link>
-                <Link to='/dashboard'>DASHBOARD</Link>
-                <Link to='/blogs'>BLOGS</Link>
-                <Link to='/about'>ABOUT</Link>
+                <Link className='mx-6 px-3 pb-1 border-b-2 border-indigo-200' to='/home'>HOME</Link>
+                <Link className='mx-6 px-3 pb-1 border-b-2 border-indigo-200' to='/reviews'>REVIEWS</Link>
+                <Link className='mx-6 px-3 pb-1 border-b-2 border-indigo-200' to='/dashboard'>DASHBOARD</Link>
+                <Link className='mx-6 px-3 pb-1 border-b-2 border-indigo-200' to='/blogs'>BLOGS</Link>
+                <Link className='mx-6 px-3 pb-1 border-b-2 border-indigo-200' to='/about'>ABOUT</Link>
 
             </nav>
         </div>
