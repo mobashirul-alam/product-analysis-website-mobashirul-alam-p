@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Shamim Khan",
+        "details": "The Casio fx-991EX has one fo the best screens out of all scientific calculators. It has about 4x as many pixels as any other scientific calculator made by Texas instruments, on the same size screen. With theat amount of room on the screen, the numbers look nice and are easy to read.",
+        "rating": "4.8"
+    },
+    {
+        "id": 2,
+        "name": "Akib Uddin",
+        "details": "The original Casio calculator. It's been over a year, works perfectly without any problems. Has higher functionality than the previous fx 991 es plus model including solving 4x4 matrices and spreadsheet.",
+        "rating": "4.6"
+    },
+    {
+        "id": 3,
+        "name": "Saqib Ul Ahmed",
+        "details": "This is a good product and an original one. It has a two way power supply system both from light and battery. It has 3 years of warranty. The display is clean. It processes much faster than other calculators and there are new exciting functions like generating QR codes.",
+        "rating": "4.5"
+    },
+    {
+        "id": 4,
+        "name": "Nowshad Maola",
+        "details": "I was too much confused about calculators. Because, there are too many fake calculators in the marker. I was felling unsecured. But I trust this website. So I bought the calculator from them undoubtedly. Now, I am using this calculator; no issue with it's quality.",
+        "rating": "4.3"
+    },
+    {
+        "id": 5,
+        "name": "Gazi Sohel",
+        "details": "Purchased this product a year ago. It was a genuine product and overall the experience is really good. And one thing to mention, if you buy this from your local store they won't give you the real product and won't give you the warranty facility. But, here you can buy with no tension.",
+        "rating": "4.7"
+    },
+    {
+        "id": 6,
+        "name": "Rasheda Khatum",
+        "details": "The product I got was genuine and I got that on good condition. The Calculator's output is very fascinating. Compare to other platforms this is the best place I can trust. Thank You. Just keep it up.",
+        "rating": "4.8"
+    },
+    {
+        "id": 7,
+        "name": "Nazmul Hasan",
+        "details": "The product quality is much better than I thought. Even service is also good. My first calculator wasn't working after some days and I give them the complain and in one week they give me a new one.",
+        "rating": "4.5"
+    }
+]
