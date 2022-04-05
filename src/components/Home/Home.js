@@ -1,6 +1,10 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const Home = () => {
+
+    const navigate = useNavigate();
+
     return (
         <div>
             <div className='flex'>
@@ -18,7 +22,8 @@ const Home = () => {
             <div>
                 <h1 className='text-center text-3xl font-bold'>Customer Reviews</h1>
                 <div className='flex justify-center'>
-                    <button className='px-12 py-1 rounded-lg text-xl bg-sky-700 text-white'>See all reviews</button>
+                    <button onClick={() => navigate('/reviews')}
+                        className='px-12 py-1 rounded-lg text-xl bg-sky-700 text-white'>See all reviews</button>
                 </div>
             </div>
         </div>
