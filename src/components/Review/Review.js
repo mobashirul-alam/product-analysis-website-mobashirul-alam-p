@@ -4,7 +4,7 @@ const Review = ({ review }) => {
     const { name, details, rating } = review;
     return (
         <div className='border-2 border-slate-400 rounded-xl p-5 relative'>
-            <div className='mb-8'>
+            <div className='mb-12'>
                 <p className='border-b-2 border-zinc-300 font-medium text-xl'>{name}</p>
                 <p className='mt-2 text-base'>{details}</p>
             </div>

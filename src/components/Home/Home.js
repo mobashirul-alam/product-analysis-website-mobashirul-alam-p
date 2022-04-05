@@ -1,9 +1,12 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import useReviews from '../../hooks/useReviews';
+import Review from '../Review/Review';
 
 const Home = () => {
 
     const navigate = useNavigate();
+    const [reviews] = useReviews();
 
     return (
         <div>
@@ -20,10 +23,18 @@ const Home = () => {
                 </div>
             </div>
             <div>
-                <h1 className='text-center text-3xl font-bold'>Customer Reviews</h1>
-                <div className='flex justify-center'>
+                <h1 className='text-center text-3xl font-bold mb-8'>Customer Reviews</h1>
+                <div className='mx-24 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8'>
+                    {
+                        reviews.slice(0, 3).map(review => <Review
+                            key={review.id}
+                            review={review}
+                        ></Review>)
+                    }
+                </div>
+                <div className='flex justify-center my-8'>
                     <button onClick={() => navigate('/reviews')}
-                        className='px-12 py-1 rounded-lg text-xl bg-sky-700 text-white'>See all reviews</button>
+                        className='px-16 py-1 rounded-lg text-xl bg-sky-600 text-white'>See all reviews</button>
                 </div>
             </div>
         </div>
