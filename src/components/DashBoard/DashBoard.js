@@ -39,11 +39,11 @@ const DashBoard = () => {
                 <BarChart width={400} height={250} data={data}>
                     <Bar dataKey="investment" stackId="a" fill="#8884d8"></Bar>
                     <Bar dataKey="revenue" stackId="a" fill="#82ca9d"></Bar>
-                    <CartesianGrid strokeDasharray="3 3"></CartesianGrid>
                     <XAxis dataKey="month"></XAxis>
                     <YAxis></YAxis>
                     <Legend></Legend>
                     <Tooltip></Tooltip>
+                    <CartesianGrid strokeDasharray="3 3"></CartesianGrid>
                 </BarChart>
             </div>
         </div>
